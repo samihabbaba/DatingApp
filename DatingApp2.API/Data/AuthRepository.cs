@@ -69,5 +69,10 @@ namespace DatingApp2.API.Data
                 return true;
             return false;    
         }
+
+        public Task Register(string username, object password)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
