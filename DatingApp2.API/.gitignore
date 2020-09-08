@@ -1,5 +1,9 @@
 .vscode
 bin
 obj
+<<<<<<< HEAD
 *.db
 node_modules
+=======
+node_modules
+>>>>>>> 2a30837a97d9469479647ec87302efcbcbf1853e
