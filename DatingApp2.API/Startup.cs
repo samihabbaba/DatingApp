@@ -89,7 +89,6 @@ namespace DatingApp2.API
 
             app.UseRouting();
             app.UseCors( x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
-
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseEndpoints(endpoints =>
